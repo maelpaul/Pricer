@@ -68,6 +68,7 @@ Pricer/
 ├── core/                        # Math engines
 │   ├── black_scholes.py         # Black-Scholes pricing + 10 Greeks
 │   └── bonds_math.py            # Bond pricing, duration, convexity, DV01
+│
 ├── utils/                       # Utilities
 │   ├── formatting.py            # Number formatting helpers
 │   └── charts.py                # Reusable Plotly chart builders
