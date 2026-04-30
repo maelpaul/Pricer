@@ -1,5 +1,5 @@
 """
-Skema Pricer — Derivatives Pricer
+Options and Bonds Pricer
 Main Streamlit application entrypoint.
 """
 
@@ -7,7 +7,7 @@ import streamlit as st
 
 # ── PAGE CONFIG ──────────────────────────────────────────────
 st.set_page_config(
-    page_title="Skema Pricer",
+    page_title="Options and Bonds Pricer",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -102,21 +102,21 @@ h4 {
 }
 
 /* Logo area */
-.skema-header {
+.header {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 0.5rem;
 }
 
-.skema-title {
+.title {
     font-size: 0.9rem;
     font-weight: 700;
     color: #1a1a1a;
     margin: 0;
 }
 
-.skema-badge {
+.badge {
     background-color: #fee;
     color: #c0392b;
     font-size: 0.65rem;
@@ -152,7 +152,7 @@ header {background: transparent !important;}
 
 # ── SIDEBAR HEADER ───────────────────────────────────────────
 with st.sidebar:
-    # Skema logo text-based
+    # Logo text-based
     st.markdown("""
     <div style="margin-bottom: 5px;">
         <span style="font-size: 1.4rem; font-weight: 700; color: #1a1a1a; font-family: 'Inter', sans-serif;">Pricer</span>

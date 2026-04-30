@@ -1261,7 +1261,7 @@ wheels = [
 ]
 
 [[package]]
-name = "skema-pricer"
+name = "pricer"
 version = "1.0.0"
 source = { virtual = "." }
 dependencies = [

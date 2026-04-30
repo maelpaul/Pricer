@@ -1,5 +1,5 @@
 """
-Reusable Plotly chart builders for the Skema Pricer.
+Reusable Plotly chart builders for the Options and Bonds Pricer.
 """
 
 import plotly.graph_objects as go

@@ -1,7 +1,7 @@
 [project]
-name = "skema-pricer"
+name = "pricer"
 version = "1.0.0"
-description = "Skema Pricer — Interactive derivatives pricer built with Streamlit"
+description = "Options and Bonds Pricer"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

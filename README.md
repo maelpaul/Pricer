@@ -1,10 +1,14 @@
-# Skema Pricer — Derivatives Pricer
+# Options and Bonds Pricer
 
-An interactive derivatives pricing application built with **Streamlit**, designed for SKEMA Business School.
+An interactive derivatives pricing application built with **Streamlit**.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.57+-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
+---
+
+**🚀 Live App:** [options-and-bonds-pricer.streamlit.app](https://options-and-bonds-pricer.streamlit.app/)
 
 ---
 
@@ -44,8 +48,8 @@ An interactive derivatives pricing application built with **Streamlit**, designe
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/skema-pricer.git
-cd skema-pricer
+git clone https://github.com/maelpaul/Pricer.git
+cd Pricer
 
 # Create venv and install all dependencies (one command)
 uv sync
@@ -145,6 +149,12 @@ $$P = \sum_{i=1}^{n} \frac{C}{(1+y/f)^i} + \frac{FV}{(1+y/f)^n}$$
 
 ---
 
+## Author
+
+Created by [Maël PAUL](https://github.com/maelpaul).
+
+---
+
 ## License
 
-MIT — SKEMA Business School
+MIT
