@@ -29,12 +29,6 @@ An interactive derivatives pricing application built with **Streamlit**.
 - Callable bond support
 - **Interview Q&A** section with 7 bonds/swaps questions
 
-### 🚀 Coming Soon (In Development)
-- **Turbo (Open-End Knock-Out)**: Pricing, distance to barrier, daily funding cost.
-- **Discount Certificate**: Replication strategies, discount %, sideways return.
-- **Bonus Certificate**: Down-and-out put barrier option pricing.
-- **Interview Q&A**: 30+ finance interview questions with detailed answers.
-
 ---
 
 ## Quick Start
@@ -140,9 +134,6 @@ $$C = S e^{-qT} N(d_1) - K e^{-rT} N(d_2)$$
 
 ### Greeks Implemented
 Delta, Gamma, Theta, Vega, Rho, Charm, Vanna, Volga, Speed, Color
-
-### Barrier Options (Bonus Certificate)
-*Coming Soon*
 
 ### Bond Pricing
 $$P = \sum_{i=1}^{n} \frac{C}{(1+y/f)^i} + \frac{FV}{(1+y/f)^n}$$
