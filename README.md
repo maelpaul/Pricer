@@ -60,17 +60,14 @@ The app will open at **http://localhost:8501**.
 
 ```
 Pricer/
-├── app.py                        # Main Streamlit entrypoint (routing & CSS)
-├── pyproject.toml                # Project config & dependencies (uv)
+├── app.py                       # Main Streamlit entrypoint (routing & CSS)
+├── pyproject.toml               # Project config & dependencies (uv)
 ├── uv.lock                      # Dependency lockfile
 ├── .venv/                       # Virtual environment (created by uv)
 │
 ├── core/                        # Math engines
 │   ├── black_scholes.py         # Black-Scholes pricing + 10 Greeks
 │   └── bonds_math.py            # Bond pricing, duration, convexity, DV01
-│   # ├── turbo_math.py            # (WIP) Turbo certificate pricing
-│   # ├── discount_cert_math.py    # (WIP) Discount certificate replication
-│   # └── bonus_cert_math.py       # (WIP) Bonus certificate
 ├── utils/                       # Utilities
 │   ├── formatting.py            # Number formatting helpers
 │   └── charts.py                # Reusable Plotly chart builders
@@ -78,10 +75,6 @@ Pricer/
 └── views/                       # Page modules
     ├── options.py               # Options page
     └── bonds.py                 # Bonds page
-    # ├── turbo.py                 # (WIP) Turbo page
-    # ├── discount_cert.py         # (WIP) Discount Certificate page
-    # ├── bonus_cert.py            # (WIP) Bonus Certificate page
-    # └── interview.py             # (WIP) Interview Q&A page
 ```
 
 ---
